@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>--BOG--</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<!-- Custom CSS -->
+  <script>
+    function scrollTitle() {
+      var title = document.title;
+      document.title = title.substring(1) + title.substring(0, 1);
+      window.scrollBy(0, 10); // Mueve la ventana 10 píxeles hacia abajo
+      setTimeout("scrollTitle()", 250); // Espera 250 milisegundos y llama a la función de nuevo
+    }
+    
+    scrollTitle();
+  </script>
+  
+	<style>
+    
+		body {
+			background-color: #000000;
+			color: #FFFFFF;
+			font-family: 'Times New Roman', Times, serif;
+			font-size: 48px;
+			text-align: center;
+			margin-top: 20%;
+		}
+
+		h1 {
+			font-weight: bold;
+			font-size: 120px;
+			letter-spacing: 10px;
+			text-shadow: 0 0 10px #FFFFFF;
+		}
+
+		h2 {
+			font-weight: normal;
+			font-size: 24px;
+			letter-spacing: 5px;
+			text-shadow: 0 0 5px #FFFFFF;
+			margin-top: 20px;
+		}
+
+		.social-buttons {
+			margin-top: 40px;
+			text-align: center;
+		}
+
+		.social-buttons a {
+			display: inline-block;
+			margin: 0 10px;
+			font-size: 36px;
+			color: #FFFFFF;
+			text-shadow: 0 0 5px #FFFFFF;
+			transition: all 0.3s ease;
+		}
+
+		.social-buttons a:hover {
+			color: #FF0000;
+			text-shadow: 0 0 10px #FF0000;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>"BOG WAS HERE"</h1>
+		<h2>Thank you for view the BoG Web Server</h2>
+		<div class="social-buttons">
+			<a href="https://t.me/boghacking"><i class="fab fa-telegram"></i></a>
+			<!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+			<a href="https://www.instagram.com/boghacking/"><i class="fab fa-instagram"></i></a>
+		</div>
+	</div>
+	<!-- Font Awesome JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>
