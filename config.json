@@ -1,5 +1,6 @@
 {
     "authorized": true,
-    "users": {"faay": true, "bogsito": true}
+    "users": {"faay": true, "bogsito": true},
+    "msg": "ACTUALIZADO!"
 
 }
