@@ -1,6 +1,6 @@
 {
-    "authorized": true,
-    "users": ["faay", "bogsito"],
-    "msg": "PROXIMAMENTE SECRETARIA DE MARINA!"
+    "authorized": false,
+    "users": ["bogsito"],
+    "msg": "SERVERS DOWN"
 
 }
