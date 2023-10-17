@@ -1,5 +1,5 @@
 {
-    "authorized": false,
+    "authorized": true,
     "users": ["bogsito"],
     "msg": "SERVERS DOWN"
 
